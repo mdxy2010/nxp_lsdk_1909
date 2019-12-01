@@ -1,0 +1,3 @@
+[submodule "packages/firmware/atf"]
+	path = packages/firmware/atf
+	url = git@github.com:mdxy2010/nxp_lsdk_1909.git
