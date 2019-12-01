@@ -1,0 +1,79 @@
+The RCW directories names for the LS2160ARDB boards conform to the following
+naming convention:
+
+abcde_fg_hijk_RR_l_m_n:
+
+a = What is available on ethernet interface 1
+b = What is available on ethernet interface 2
+c = What is available on ethernet interface 3
+d = What is available on ethernet interface 4
+e = What is available on ethernet interface 5
+f = What is available in Slot 1 (on Serdes 2)
+g = What is available in Slot 2 (on Serdes 3)
+h = SATA1
+i = SATA2
+j = SATA3
+k = SATA4
+
+For the Slots (a..k):
+ 'N' is NULL, not available/not used
+ 'H' is SATA
+ 'S' is SGMII
+ 'P' is PCIe
+ 'F' is XFI
+ 'I' is 4 XFI (40G ports used as 4*10G)
+ 'G' is 25G
+ 'L' is 50G
+ 'X' is 40G
+ 'C' is 100G
+
+RGMII Interface (R):
+  'R' is RGMII Interface 1G
+
+Serdes1 protocol (l) in decimal:
+l = 'serdes1 protocol value'
+
+Serdes2 protocol (m):
+m = 'serdes2 protocol value'
+
+Serdes3 protocol (n):
+n = 'serdes3 protocol value'
+
+Ref clock setting on board
+==========================
+DDR Ref clock: 100 MHz
+Sys PLL Ref clock: 100MHz
+
+Files naming convention
+=============================
+rcw_x_l_m_n.rcw
+rcw_x_l_m_n_bootmode.rcw
+rcw_x_y_l_m_n.rcw
+rcw_x_y_z_l_m_n.rcw
+
+x = Core frequency
+y = Platform frequency
+z = DDR frequency
+bootmode = nor(default)/sd
+l = 'serdes1 protocol value'
+m = 'serdes2 protocol value'
+n = 'serdes3 protocol value'
+
+For example,
+  rcw_2000_19_5_2.rcw means rcw for core frequency of 2000MHz, with serdes1=19 serdes2=5 serdes3=2.
+  rcw_2000_700_19_5_2.rcw means rcw for core frequency 2000MHz and Platform frequecny 700MHz, with serdes1=19 serdes2=5 serdes3=2.
+  rcw_2000_700_2400_19_5_2.rcw means rcw for core frequency 2000MHz, Platform frequecny 700MHz and DDR Memory Data Rate as 2400 MT/s, with serdes1=19 serdes2=5 serdes3=2.
+  rcw_2000_19_5_2_sd.rcw means rcw for core frequency of 2000MHz with SD boot, with serdes1=19 serdes2=5 serdes3=2.
+
+Errata Workaround Implemented
+=============================
+A-011270:
+	Software will read incorrect Function Dependency List for PF1
+	Workaround: Set FDL field in the SRIOV_FDL_DEVICE_ID1 to 0x1
+
+A-050234:
+	The default configuration of the elastic buffer thresholds in the PCI
+	Express controller is not optimal and can cause various link errors.
+	Workaround:
+	For Gen1 & Gen2, write 0x2008_1004 to PEXnCR0
+	For Gen3, write 0x0008_1004 to PEXnCR1
