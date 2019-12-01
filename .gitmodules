@@ -55,3 +55,6 @@
 [submodule "packages/apps/dce"]
 	path = packages/apps/dce
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/dce
+[submodule "packages/apps/eth_config"]
+	path = packages/apps/eth_config
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/eth-config.git
