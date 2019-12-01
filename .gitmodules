@@ -1,6 +1,3 @@
 [submodule "packages/firmware/atf"]
 	path = packages/firmware/atf
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/atf.git
-[submodule "packages/firmware/rcw"]
-	path = packages/firmware/rcw
-	url = https://source.codeaurora.org/external/qoriq/qoriq-components/rcw.git
