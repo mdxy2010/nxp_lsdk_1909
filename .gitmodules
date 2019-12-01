@@ -16,3 +16,6 @@
 [submodule "packages/firmware/mc_bin"]
 	path = packages/firmware/mc_bin
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/mc_bin.git
+[submodule "packages/firmware/mc_utils"]
+	path = packages/firmware/mc_utils
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/mc_utils.git
