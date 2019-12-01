@@ -19,3 +19,6 @@
 [submodule "packages/firmware/mc_utils"]
 	path = packages/firmware/mc_utils
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/mc_utils.git
+[submodule "packages/firmware/pfe_bin"]
+	path = packages/firmware/pfe_bin
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/pfe_bin.git
