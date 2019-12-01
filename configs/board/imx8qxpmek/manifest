@@ -1,0 +1,25 @@
+# [general]
+machine=imx8qxpmek
+
+# [default firmware images]
+uboot_img=build/firmware/u-boot/imx8qxpmek/uboot_imx8qxp_mek.bin
+
+# [linux, dtb, rfs]
+kernel_img=build/linux/kernel/arm64/IMX/Image
+linux_itb=build/images/lsdk_linux_arm64_IMX_tiny.itb
+device_tree=build/linux/kernel/arm64/IMX/fsl-imx8qxp-mek.dtb
+ramdiskrfs=packages/rfs/ramdiskrfs/ramdisk_rootfs_arm64_imx.ext4.gz
+
+# [distro autoboot script]
+distro_bootscript=build/firmware/u-boot/imx8qxpmek/imx8qxpmek_boot.scr
+distroboot=\
+'env exists dtb || setenv dtb fsl-imx8qxp-mek.dtb;'\
+'env exists kernel_image || setenv kernel_image Image;'\
+'env exists devpart_boot || setenv devpart_boot 2;'\
+'env exists devpart_root || setenv devpart_root 4;'\
+'part uuid $devtype $devnum:$devpart_root partuuidr;'\
+'setenv bootargs console=ttyLP0,115200 root=PARTUUID=$partuuidr rw rootwait $othbootargs;'\
+'print bootargs;'\
+'ext4load mmc $mmcdev:$mmcpart $fdt_addr $fdt_file;'\
+'ext4load mmc $mmcdev:$mmcpart $loadaddr $image;'\
+'booti $loadaddr - $fdt_addr'

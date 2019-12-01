@@ -1,0 +1,48 @@
+
+# additional packages list for LSDK main userland gathered from main repo
+additional_main_packages_list="apt apt-utils git gcc vim wget make build-essential u-boot-tools
+ device-tree-compiler python python-dev ethtool zip libxml2-dev libsensors4-dev libssl-dev ftp
+ libedit-dev liblzma-dev binutils-dev autoconf automake dh-autoreconf libnuma-dev libpcap-dev
+ bc qemu-kvm bridge-utils libtool libncurses5-dev bison libelf-dev curl flex autotools-dev
+ openssh-server openssh-client tcpdump vlan ifenslave linux-tools-generic tftp-hpa tftpd-hpa
+ strace debootstrap mdadm vsftpd telnet sysstat rdate initramfs-tools mtd-utils dosfstools pciutils
+ net-tools iputils-ping hdparm psmisc keyutils python-numpy software-properties-common efibootmgr
+ ca-certificates libnl-genl-3-dev libreadline-dev libffi-dev libudev-dev libinput-dev libpixman-1-dev
+ libxkbcommon-dev libpng-dev libcairo2-dev libpam0g-dev lsb-release kexec-tools iptables
+ liblua5.3-dev parted strongswan"
+
+
+# for devel userland gathered packages from main/universe/multiverse/restricted besides additional_main_packages_list
+additional_devel_packages_list="makedev tree lxc lxd virt-manager lm-sensors i2c-tools fio rt-tests
+ libcunit1-dev python-pip iperf netperf hugepages blktrace sysfsutils cpufrequtils iozone3 busybox
+ ipsec-tools lmbench watchdog libtclap-dev lttng-tools xterm can-utils python-virtualenv gdb
+ memtester usbutils linuxptp android-tools-fsutils netdata redis-server"
+
+
+# for Lite userland gathered from main repo
+additional_lite_packages_list="systemd udev net-tools iputils-ping isc-dhcp-client libxml2-dev
+ libnl-genl-3-dev libreadline-dev libtinfo-dev"
+
+
+# additional packages for cloud userland, for openstack-nova if CONFIG_BUILD_OPENSTACK_NOVA is enabled
+openstack_dependent_packages_list="python-pbr python-sqlalchemy python-decorator python-eventlet
+ python-jinja2 python-keystonemiddleware python-lxml python-routes python-cryptography python-webob
+ python-greenlet python-pastedeploy python-paste python-prettytable python-migrate python-netaddr
+ python-netifaces python-paramiko python-babel python-enum34 python-iso8601 python-jsonschema
+ python-cinderclient python-keystoneauth1 python-neutronclient python-glanceclient python-requests
+ python-six python-stevedore python-setuptools python-websockify python-oslo.cache python-oslo.concurrency
+ python-oslo.config python-oslo.context python-oslo.log python-oslo.reports python-oslo.serialization
+ python-oslo.utils python-oslo.db python-oslo.rootwrap python-oslo.messaging python-oslo.policy
+ python-oslo.privsep python-oslo.i18n python-oslo.service python-rfc3986 python-oslo.middleware
+ python-psutil python-oslo.versionedobjects python-os-brick python-os-traits python-os-vif python-os-win
+ python-castellan python-microversion-parse python-os-xenapi python-tooz python-cursive python-pypowervm
+ qemu-efi-aarch64"
+
+
+# source packages depended by some custom components.
+source_packages_list="iproute2"
+
+
+# extrinsic package needed by user but unavailable from official ubuntu
+extrinsic_packages_list=""
+
