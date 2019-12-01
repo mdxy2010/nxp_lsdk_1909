@@ -79,3 +79,6 @@
 [submodule "packages/linux/linux"]
 	path = packages/linux/linux
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/linux.git
+[submodule "packages/apps/gpulib"]
+	path = packages/apps/gpulib
+	url = ssh://git@bitbucket.sw.nxp.com/dash/gpulib.git
