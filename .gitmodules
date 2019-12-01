@@ -10,3 +10,6 @@
 [submodule "packages/firmware/ddr_phy_bin"]
 	path = packages/firmware/ddr_phy_bin
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/ddr_phy_bin.git
+[submodule "packages/firmware/fm_ucode"]
+	path = packages/firmware/fm_ucode
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/fm_ucode.git
