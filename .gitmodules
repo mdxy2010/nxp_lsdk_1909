@@ -82,3 +82,6 @@
 [submodule "packages/apps/gpulib"]
 	path = packages/apps/gpulib
 	url = ssh://git@bitbucket.sw.nxp.com/dash/gpulib.git
+[submodule "packages/linux/gpu_module"]
+	path = packages/linux/gpu_module
+	url = ssh://git@bitbucket.sw.nxp.com/dash/gpu-module.git
