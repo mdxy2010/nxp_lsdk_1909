@@ -43,3 +43,6 @@
 [submodule "packages/apps/aiopsl"]
 	path = packages/apps/aiopsl
 	url = https://source.codeaurora.org/external/qoriq/qoriq-components/aiopsl
+[submodule "packages/apps/cjson"]
+	path = packages/apps/cjson
+	url = git://github.com/DaveGamble/cJSON.git
