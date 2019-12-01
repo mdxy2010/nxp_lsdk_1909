@@ -18,7 +18,7 @@
 	url = http://github.com/nxp/qoriq-mc-binary.git
 [submodule "packages/firmware/mc_utils"]
 	path = packages/firmware/mc_utils
-	url = http://source.codeaurora.org/external/qoriq/qoriq-components/mc_utils.git
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/mc-utils.git
 [submodule "packages/firmware/pfe_bin"]
 	path = packages/firmware/pfe_bin
 	url = http://github.com/nxp/qoriq-engine-pfe-bin.git
@@ -36,4 +36,7 @@
 	url = http://github.com/nxp/qoriq-uefi-binary.git
 [submodule "packages/apps/cst"]
 	path = packages/apps/cst
-	url = http://source.codeaurora.org/external/qoriq/qoriq-components/cst.git
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/cst
+[submodule "packages/apps/dpdk"]
+	path = packages/apps/dpdk
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/dpdk
