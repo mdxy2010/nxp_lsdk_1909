@@ -4,3 +4,6 @@
 [submodule "packages/firmware/rcw"]
 	path = packages/firmware/rcw
 	url = https://source.codeaurora.org/external/qoriq/qoriq-components/rcw.git
+[submodule "packages/firmware/u-boot"]
+	path = packages/firmware/u-boot
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/u-boot.git
