@@ -40,3 +40,6 @@
 [submodule "packages/apps/dpdk"]
 	path = packages/apps/dpdk
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/dpdk
+[submodule "packages/apps/aiopsl"]
+	path = packages/apps/aiopsl
+	url = https://source.codeaurora.org/external/qoriq/qoriq-components/aiopsl
