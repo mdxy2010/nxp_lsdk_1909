@@ -58,3 +58,6 @@
 [submodule "packages/apps/eth_config"]
 	path = packages/apps/eth_config
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/eth-config.git
+[submodule "packages/apps/flib"]
+	path = packages/apps/flib
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/flib
