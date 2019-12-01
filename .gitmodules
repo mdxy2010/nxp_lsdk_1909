@@ -9,28 +9,28 @@
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/u-boot.git
 [submodule "packages/firmware/ddr_phy_bin"]
 	path = packages/firmware/ddr_phy_bin
-	url = http://source.codeaurora.org/external/qoriq/qoriq-components/ddr_phy_bin.git
+	url = http://github.com/nxp/ddr-phy-binary.git
 [submodule "packages/firmware/fm_ucode"]
 	path = packages/firmware/fm_ucode
-	url = http://source.codeaurora.org/external/qoriq/qoriq-components/fm_ucode.git
+	url = http://github.com/nxp/qoriq-fm-ucode.git
 [submodule "packages/firmware/mc_bin"]
 	path = packages/firmware/mc_bin
-	url = http://source.codeaurora.org/external/qoriq/qoriq-components/mc_bin.git
+	url = http://github.com/nxp/qoriq-mc-binary.git
 [submodule "packages/firmware/mc_utils"]
 	path = packages/firmware/mc_utils
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/mc_utils.git
 [submodule "packages/firmware/pfe_bin"]
 	path = packages/firmware/pfe_bin
-	url = http://source.codeaurora.org/external/qoriq/qoriq-components/pfe_bin.git
+	url = http://github.com/nxp/qoriq-engine-pfe-bin.git
 [submodule "packages/firmware/phy_cortina"]
 	path = packages/firmware/phy_cortina
-	url = http://source.codeaurora.org/external/qoriq/qoriq-components/phy_cortina.git
+	url = http://github.com/nxp/qoriq-firmware-cortina.git
 [submodule "packages/firmware/phy_inphi"]
 	path = packages/firmware/phy_inphi
-	url = http://source.codeaurora.org/external/qoriq/qoriq-components/phy_inphi.git
+	url = http://github.com/nxp/qoriq-firmware-inphi.git
 [submodule "packages/firmware/qe_ucode"]
 	path = packages/firmware/qe_ucode
-	url = http://source.codeaurora.org/external/qoriq/qoriq-components/qe_ucode.git
+	url = http://github.com/nxp/qoriq-qe-ucode.git
 [submodule "packages/firmware/uefi_bin"]
 	path = packages/firmware/uefi_bin
-	url = http://source.codeaurora.org/external/qoriq/qoriq-components/uefi_bin.git
+	url = http://github.com/nxp/qoriq-uefi-binary.git
