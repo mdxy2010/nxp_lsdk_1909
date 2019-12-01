@@ -4,3 +4,6 @@
 [submodule "packages/firmware/u-boot"]
 	path = packages/firmware/u-boot
 	url = git@github.com:mdxy2010/nxp_lsdk_1909.git
+[submodule "packages/firmware/rcw"]
+	path = packages/firmware/rcw
+	url = git@github.com:mdxy2010/nxp_lsdk_1909.git
