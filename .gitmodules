@@ -64,3 +64,6 @@
 [submodule "packages/apps/fmc"]
 	path = packages/apps/fmc
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/fmc
+[submodule "packages/apps/fmlib"]
+	path = packages/apps/fmlib
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/fmlib
