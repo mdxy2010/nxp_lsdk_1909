@@ -28,3 +28,9 @@
 [submodule "packages/firmware/phy_inphi"]
 	path = packages/firmware/phy_inphi
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/phy_inphi.git
+[submodule "packages/firmware/qe_ucode"]
+	path = packages/firmware/qe_ucode
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/qe_ucode.git
+[submodule "packages/firmware/uefi_bin"]
+	path = packages/firmware/uefi_bin
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/uefi_bin.git
