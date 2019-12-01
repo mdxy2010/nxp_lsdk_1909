@@ -67,3 +67,6 @@
 [submodule "packages/apps/fmlib"]
 	path = packages/apps/fmlib
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/fmlib
+[submodule "packages/apps/gpp_aioptool"]
+	path = packages/apps/gpp_aioptool
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/gpp-aioptool.git
