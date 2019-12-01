@@ -76,3 +76,6 @@
 [submodule "packages/apps/openssl"]
 	path = packages/apps/openssl
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/openssl
+[submodule "packages/linux/linux"]
+	path = packages/linux/linux
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/linux.git
