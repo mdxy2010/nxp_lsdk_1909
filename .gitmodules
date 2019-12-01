@@ -73,3 +73,6 @@
 [submodule "packages/apps/iperf"]
 	path = packages/apps/iperf
 	url = git://github.com/lynxis/iperf2.git
+[submodule "packages/apps/openssl"]
+	path = packages/apps/openssl
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/openssl
