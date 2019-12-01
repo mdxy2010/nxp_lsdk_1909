@@ -34,3 +34,6 @@
 [submodule "packages/firmware/uefi_bin"]
 	path = packages/firmware/uefi_bin
 	url = http://github.com/nxp/qoriq-uefi-binary.git
+[submodule "packages/apps/cst"]
+	path = packages/apps/cst
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/cst.git
