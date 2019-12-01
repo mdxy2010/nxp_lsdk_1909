@@ -85,3 +85,6 @@
 [submodule "packages/linux/gpu_module"]
 	path = packages/linux/gpu_module
 	url = ssh://git@bitbucket.sw.nxp.com/dash/gpu-module.git
+[submodule "packages/linux/cryptodev_linux"]
+	path = packages/linux/cryptodev_linux
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/cryptodev-linux.git
