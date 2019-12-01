@@ -49,3 +49,6 @@
 [submodule "packages/apps/ceetm"]
 	path = packages/apps/ceetm
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/ceetm
+[submodule "packages/apps/crconf"]
+	path = packages/apps/crconf
+	url = git://github.com/Thermi/crconf.git
