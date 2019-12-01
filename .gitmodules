@@ -7,3 +7,6 @@
 [submodule "packages/firmware/u-boot"]
 	path = packages/firmware/u-boot
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/u-boot.git
+[submodule "packages/firmware/ddr_phy_bin"]
+	path = packages/firmware/ddr_phy_bin
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/ddr_phy_bin.git
