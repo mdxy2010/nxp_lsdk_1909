@@ -46,3 +46,6 @@
 [submodule "packages/apps/cjson"]
 	path = packages/apps/cjson
 	url = git://github.com/DaveGamble/cJSON.git
+[submodule "packages/apps/ceetm"]
+	path = packages/apps/ceetm
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/ceetm
