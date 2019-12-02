@@ -109,3 +109,6 @@
 [submodule "packages/apps/tsntool"]
 	path = packages/apps/tsntool
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/tsntool.git
+[submodule "packages/apps/wayland"]
+	path = packages/apps/wayland
+	url = git://github.com/wayland-project/wayland.git
