@@ -103,3 +103,6 @@
 [submodule "packages/apps/restool"]
 	path = packages/apps/restool
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/restool.git
+[submodule "packages/apps/spc"]
+	path = packages/apps/spc
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/spc
