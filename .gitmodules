@@ -106,3 +106,6 @@
 [submodule "packages/apps/spc"]
 	path = packages/apps/spc
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/spc
+[submodule "packages/apps/tsntool"]
+	path = packages/apps/tsntool
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/tsntool.git
