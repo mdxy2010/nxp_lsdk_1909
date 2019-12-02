@@ -100,3 +100,6 @@
 [submodule "packages/apps/qbman_userspace"]
 	path = packages/apps/qbman_userspace
 	url = https://source.codeaurora.org/external/qoriq/qoriq-components/qbman_userspace
+[submodule "packages/apps/restool"]
+	path = packages/apps/restool
+	url = http://source.codeaurora.org/external/qoriq/qoriq-components/restool.git
