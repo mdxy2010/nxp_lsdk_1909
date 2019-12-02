@@ -118,3 +118,6 @@
 [submodule "packages/apps/weston"]
 	path = packages/apps/weston
 	url = https://source.codeaurora.org/external/imx/weston-imx.git
+[submodule "packages/firmware/dp_firmware_cadence"]
+	path = packages/firmware/dp_firmware_cadence
+	url = ssh://git@bitbucket.sw.nxp.com/dash/firmware-cadence.git
