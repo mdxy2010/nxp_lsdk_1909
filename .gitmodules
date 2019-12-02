@@ -97,3 +97,6 @@
 [submodule "packages/apps/pktgen_dpdk"]
 	path = packages/apps/pktgen_dpdk
 	url = https://dpdk.org/git/apps/pktgen-dpdk
+[submodule "packages/apps/qbman_userspace"]
+	path = packages/apps/qbman_userspace
+	url = https://source.codeaurora.org/external/qoriq/qoriq-components/qbman_userspace
