@@ -1219,7 +1219,7 @@ merge_components() {
 	   sudo sed -i "2 i\ $APPS_REPO_LIST" $RFSDIR/etc/packages.list
 	   sudo sed -i "3 i\ " $RFSDIR/etc/packages.list
 	fi
-	[ "$ON_WSL" = n ] && sudo chroot $RFSDIR ldconfig
+	#[ "$ON_WSL" = n ] && sudo chroot $RFSDIR ldconfig
     elif [ $DISTROTYPE = centos ] && [ $SOCFAMILY = LS ]; then
 	echo Installing restool in $DISTROTYPE ...
 	[ -f $DESTDIR/usr/local/bin/restool ] || flex-builder -c restool -f $CONFIGLIST
