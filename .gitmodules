@@ -88,3 +88,6 @@
 [submodule "packages/linux/cryptodev_linux"]
 	path = packages/linux/cryptodev_linux
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/cryptodev-linux.git
+[submodule "packages/apps/libdrm"]
+	path = packages/apps/libdrm
+	url = https://source.codeaurora.org/external/imx/libdrm-imx.git
