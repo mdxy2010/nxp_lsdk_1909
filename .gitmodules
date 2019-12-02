@@ -94,3 +94,6 @@
 [submodule "packages/apps/ovs_dpdk"]
 	path = packages/apps/ovs_dpdk
 	url = https://source.codeaurora.org/external/qoriq/qoriq-components/ovs-dpdk.git
+[submodule "packages/apps/pktgen_dpdk"]
+	path = packages/apps/pktgen_dpdk
+	url = https://dpdk.org/git/apps/pktgen-dpdk
