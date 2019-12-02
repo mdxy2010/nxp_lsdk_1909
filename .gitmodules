@@ -115,3 +115,6 @@
 [submodule "packages/apps/wayland_protocols"]
 	path = packages/apps/wayland_protocols
 	url = http://source.codeaurora.org/external/imx/wayland-protocols-imx.git
+[submodule "packages/apps/weston"]
+	path = packages/apps/weston
+	url = https://source.codeaurora.org/external/imx/weston-imx.git
