@@ -91,3 +91,6 @@
 [submodule "packages/apps/libdrm"]
 	path = packages/apps/libdrm
 	url = https://source.codeaurora.org/external/imx/libdrm-imx.git
+[submodule "packages/apps/ovs_dpdk"]
+	path = packages/apps/ovs_dpdk
+	url = https://source.codeaurora.org/external/qoriq/qoriq-components/ovs-dpdk.git
