@@ -79,12 +79,12 @@
 [submodule "packages/linux/linux"]
 	path = packages/linux/linux
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/linux.git
-[submodule "packages/apps/gpulib"]
-	path = packages/apps/gpulib
-	url = ssh://git@bitbucket.sw.nxp.com/dash/gpulib.git
-[submodule "packages/linux/gpu_module"]
-	path = packages/linux/gpu_module
-	url = ssh://git@bitbucket.sw.nxp.com/dash/gpu-module.git
+#[submodule "packages/apps/gpulib"]
+#	path = packages/apps/gpulib
+#	url = ssh://git@bitbucket.sw.nxp.com/dash/gpulib.git
+#[submodule "packages/linux/gpu_module"]
+#	path = packages/linux/gpu_module
+#	url = ssh://git@bitbucket.sw.nxp.com/dash/gpu-module.git
 [submodule "packages/linux/cryptodev_linux"]
 	path = packages/linux/cryptodev_linux
 	url = http://source.codeaurora.org/external/qoriq/qoriq-components/cryptodev-linux.git
@@ -118,6 +118,6 @@
 [submodule "packages/apps/weston"]
 	path = packages/apps/weston
 	url = https://source.codeaurora.org/external/imx/weston-imx.git
-[submodule "packages/firmware/dp_firmware_cadence"]
-	path = packages/firmware/dp_firmware_cadence
-	url = ssh://git@bitbucket.sw.nxp.com/dash/firmware-cadence.git
+#[submodule "packages/firmware/dp_firmware_cadence"]
+#	path = packages/firmware/dp_firmware_cadence
+#	url = ssh://git@bitbucket.sw.nxp.com/dash/firmware-cadence.git
